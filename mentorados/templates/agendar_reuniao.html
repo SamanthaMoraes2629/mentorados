@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+{% block 'body' %}
+<div class="bg-[#040e1b] min-h-screen">
+    <div class="max-w-5xl mx-auto py-8">
+        <form action="{% url 'agendar_reuniao' %}" method="POST">
+        {% csrf_token %}
+            <h2 class="text-2xl font-bold text-white">Agende sua reunião</h2>
+            
+            <div class="mt-4 text-white">
+                <label class="block font-medium">Horário</label>
+                <select name="horario" class="mt-1 bg-gray-800 text-white p-2 rounded w-full">
+                    {% for horario in horarios %}
+                    <option value="{{ horario.id }}">
+                        {{ horario.data_inicial|time }} às {{ horario.data_final|time }}
+                    </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="mt-4 text-white">
+                <label class="block font-medium">Tag</label>
+                <select name="tag" class="mt-1 bg-gray-800 text-white p-2 rounded w-full">
+                    {% for tag in tags %}
+                    <option value="{{ tag.0 }}">{{ tag.1 }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="mt-4 text-white">
+                <label class="block font-medium">Descrição</label>
+                <textarea name="descricao" class="mt-1 bg-gray-800 text-white p-2 rounded w-full"></textarea>
+            </div>
+            
+            <button type="submit" class="mt-4 bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">
+                Agendar
+            </button>
+        </form>
+    </div>
+</div>
+{% endblock %}
