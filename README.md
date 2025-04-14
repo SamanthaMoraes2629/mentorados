@@ -1,7 +1,7 @@
 # 💻 Sistema de Autenticação Django
 **Este projeto implementa um sistema de autenticação básico usando Django, com páginas de login e cadastro estilizadas com Tailwind CSS.**
 
- ##Funcionalidades
+ ## Funcionalidades
  
 - Cadastro de novos usuários
 
@@ -24,8 +24,6 @@
 - CSS3
 
 ## 🗂️ Estrutura do Projeto
-
-🗂️ ## Estrutura do Projeto
 
 ```
 PSW13/
