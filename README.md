@@ -13,7 +13,7 @@
 
 - Design responsivo e moderno
 
-🛠️ ##Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - Django (Python)
 
@@ -23,7 +23,7 @@
 
 - CSS3
 
-🗂️ ## Estrutura do Projeto
+## 🗂️ Estrutura do Projeto
 
 ```
 bash
@@ -36,7 +36,7 @@ usuarios/
 
 ```
 
-▶️ ##Como Executar
+## ▶️ Como Executar
 
 Clone o repositório:
 
@@ -68,7 +68,7 @@ Inicie o servidor de desenvolvimento:
 python manage.py runserver
 ```
 
-✅ ## Requisitos
+## ✅ Requisitos
 
 - Python 3.x
 
@@ -76,7 +76,7 @@ python manage.py runserver
 
 - Navegador moderno
 
-📸 ## Screenshots
+## 📸 Screenshots
 
 Página de Login
 
@@ -84,6 +84,6 @@ Página de Cadastro
 
 --
 
-📄 ## Licença
+##📄 Licença
 
 Distribuído sob a licença **MIT**. Veja LICENSE para mais informações.
