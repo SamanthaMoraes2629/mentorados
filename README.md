@@ -25,14 +25,39 @@
 
 ## 🗂️ Estrutura do Projeto
 
-```
-bash
+🗂️ ## Estrutura do Projeto
 
-usuarios/
-├── templates/
-│   ├── cadastro.html   # Página de cadastro de novos usuários
-│   ├── login.html      # Página de login para usuários existentes
-│   └── base.html       # Template base para as páginas
+```
+PSW13/
+├── mentorados/
+│   ├── templates/
+│   │   ├── auth_mentorado.html
+│   │   ├── escolher_dia.html
+│   │   ├── mentorados.html
+│   │   ├── reunioes.html
+│   │   ├── tarefa.html
+│   │   └── tarefa_mentorado.html
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── auth.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+│
+├── usuarios/
+│   ├── migrations/
+│   ├── templates/
+│   │   ├── cadastro.html
+│   │   └── login.html
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
 
 ```
 
