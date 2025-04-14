@@ -61,8 +61,9 @@ Execute as migrações:
 python manage.py migrate
 
 ```
+
 Inicie o servidor de desenvolvimento:
-```
+
 
 ```bash
 python manage.py runserver
